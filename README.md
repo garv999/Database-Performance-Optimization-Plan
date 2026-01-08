@@ -1,11 +1,5 @@
 # Database Performance Optimization Plan
 
-**Task Title:** Database Performance Optimization Plan
-**Date:** January 8, 2026
-
-## Overview
-This folder contains the deliverables for the database performance analysis task. The objective was to analyze slow-running queries in an E-Commerce environment and provide actionable optimization strategies.
-
 ## Contents
 
 ### 1. Reports & Analysis
