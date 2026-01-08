@@ -1,0 +1,9 @@
+Query_ID,Query_Description,Metric,Value_Before_Optimization,Value_After_Optimization,Improvement_Percentage,Notes
+1,Email Search (Wildcard),CPU_Cost_Estimated,0.850,0.042,95.1%,"Index Seek vs Table Scan"
+1,Email Search (Wildcard),Logical_Reads,4500,25,99.4%,"Reduced I/O significantly"
+2,Sales Aggregation (Year Function),CPU_Cost_Estimated,0.650,0.015,97.7%,"SARGable Date Range"
+2,Sales Aggregation (Year Function),Logical_Reads,3200,12,99.6%,"Covering Index usage"
+3,Customer Order History (Joins),CPU_Cost_Estimated,1.200,0.180,85.0%,"Nested Loop vs Hash Join"
+3,Customer Order History (Joins),Execution_Time_ms,850,120,85.9%,"Missing FK Indexes added"
+4,Product List (Subquery),CPU_Cost_Estimated,0.450,0.110,75.6%,"EXISTS vs IN"
+4,Product List (Subquery),Memory_Grant_KB,1024,0,100.0%,"Removed sort/distinct overhead"
