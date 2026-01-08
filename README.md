@@ -1,4 +1,4 @@
-# Database Performance Optimization Task - Submission
+# Database Performance Optimization Plan
 
 **Task Title:** Database Performance Optimization Plan
 **Date:** January 8, 2026
